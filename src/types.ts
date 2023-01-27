@@ -1,15 +1,10 @@
-export interface numberLookupMapStructure {
+export interface NumberLookupMapStructure {
   [key: string]: {
     vulgar: string;
     fraction: string;
   };
 }
 
-export interface toFracionParams {
-  value: number;
-  options: toFractionOptions;
-}
-
-export interface toFractionOptions {
-  useUnicodeVulgar: boolean;
+export interface ToFractionOptions {
+  useUnicodeVulgar?: boolean;
 }

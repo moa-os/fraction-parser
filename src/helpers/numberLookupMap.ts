@@ -1,6 +1,6 @@
-import { numberLookupMapStructure } from '../types';
+import { NumberLookupMapStructure } from '../types';
 
-const numberLookupMap: numberLookupMapStructure = {
+const numberLookupMap: NumberLookupMapStructure = {
   0.1: {
     vulgar: '⅒',
     fraction: '1/10',
